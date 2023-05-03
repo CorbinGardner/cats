@@ -30,6 +30,9 @@ header h1 {
 nav {
 	width: 90%;
 	margin: 2% 5%;
+}
+
+blockquote {
 	text-align: center;
 }
 
@@ -82,6 +85,7 @@ main ol {
 	font-size: 1.5vw;
 	outline: solid .2vw #5C3317;
 	padding: .3%;
+	background-color: #CCAF9D;
 }
 
 label {
@@ -100,6 +104,16 @@ legend {
 fieldset {
 	border: solid .2vw #CCAF9D;
 	padding: 1%;
+}
+
+.btn {
+	padding: 1%;
+	font-size: 1.5vw;
+	background-color: #CCAF9D;
+}
+
+footer a:hover, .btn:hover {
+	color: #5C3317;
 }
 
 footer {
