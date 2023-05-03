@@ -1,0 +1,108 @@
+/* CSS Document 
+
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+*/
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #804720;
+}
+
+header {
+		border-bottom: double .4vw #CCAF9D;
+}
+
+header h1 {
+	text-align: center;
+	color: #F7A26C;
+	margin: 2%;
+}
+
+nav {
+	width: 90%;
+	margin: 2% 5%;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 2%;
+	text-align: center;
+}
+
+nav a {
+	padding: 1%;
+	text-decoration: none;
+	color: #F7A26C;
+	font-size: 2vw;
+}
+
+main {
+	width: 80%;
+	margin: 1% 8%;
+	padding: 2%;
+	background-color: #5C3317;
+}
+
+main h2 {
+	font-size: 3vw;
+}
+
+main * {
+	margin: 2%;
+}
+
+main p {
+	font-size: 1.5vw;
+}
+
+main img {
+	float: right;
+	width: 35%;
+}
+
+table {
+	width: 100%;
+}
+
+main ol {
+	font-size: 1.5vw;
+}
+
+.t_box {
+	font-size: 1.5vw;
+	outline: solid .2vw #5C3317;
+	padding: .3%;
+}
+
+label {
+	font-size: 1.5vw;
+	width: 50%;
+}
+
+form  {
+	text-align: center;
+}
+
+legend {
+	font-size: 3vw;
+}
+
+fieldset {
+	border: solid .2vw #CCAF9D;
+	padding: 1%;
+}
+
+footer {
+	text-align: center;
+	border-top: double .4vw #CCAF9D;
+}
